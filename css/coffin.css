@@ -6,8 +6,9 @@ align-items: center;
 display: flex;
 min-height: 100vh;
 overflow: clip;
+    background-color:#f3f3f3!important;
 flex-direction:column}
 body a, body p{
 font-size:larger;
-  background-color:#f3f3f3!important;
+
 } 
