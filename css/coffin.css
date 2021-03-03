@@ -9,4 +9,5 @@ overflow: clip;
 flex-direction:column}
 body a, body p{
 font-size:larger;
+  background-color:#f3f3f3!important;
 } 
