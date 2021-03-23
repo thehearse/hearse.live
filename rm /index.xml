@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>the hease’s Personal Site on the hearse</title>
+    <link>/</link>
+    <description>Recent content in the hease’s Personal Site on the hearse</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Jan 2021 13:55:59 +0100</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using NetBSD on the desktop, personal notes for dwm and such</title>
+      <link>/posts/netbsd-desktop-common-problems/</link>
+      <pubDate>Mon, 18 Jan 2021 13:55:59 +0100</pubDate>
+      
+      <guid>/posts/netbsd-desktop-common-problems/</guid>
+      <description>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Table of contents:  Useful NetBSD commands to get working installation with DWM To fix SSL errors with curl and git Good website to get sauce Get a good mirror dwm won&amp;rsquo;t compile  Use this command to find the missing file. NetBSD FreeBSD      Useful NetBSD commands to get working installation with DWM I might need this in the future, really don&amp;rsquo;t want to figure it out again and it&amp;rsquo;s good website-filler.</description>
+    </item>
+    
+    <item>
+      <title>Media</title>
+      <link>/media/</link>
+      <pubDate>Tue, 19 Jan 2021 17:41:08 +0100</pubDate>
+      
+      <guid>/media/</guid>
+      <description>This is my media log. I may remove / change this site&amp;rsquo;s location, note it is mainly for my use. It is currently a mirror of my profile on csfd.cz which I am slowly transitioning away from.
+Current count: 367
+   Name Year Rating 0 - 5 Date     Dracula Netflix Series 2020 ** 28.</description>
+    </item>
+    
+  </channel>
+</rss>

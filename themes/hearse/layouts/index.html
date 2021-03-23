@@ -1,0 +1,32 @@
+{{ define "main" }}
+	<main>
+        <header class="homepage-header">
+        <!--<h1>{{.Title}}</h1>-->
+        {{ with .Params.subtitle }}
+        <span class="subtitle">{{.}}</span>
+        {{ end }}
+      </header>
+      <div class="homepage-content">
+        {{.Content}}
+   <b><p>Tags:</p></b>
+        <ul>
+ {{ range .Site.Taxonomies.tags }}
+            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
+    {{ end }}
+</ul>
+        
+
+		
+
+      
+      </div>
+  <div class="main_content">
+		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+		{{ range $paginator.Pages }}
+			{{ .Render "summary" }}
+		{{ end }}
+		{{ partial "pagination.html" . }} 
+        </div>
+	</main>
+<!-- {{ partial "sidebar.html" . }} -->
+{{ end }}

@@ -1,0 +1,21 @@
+<div class="colorbar"></div>
+<header class="site_header"><div class="body_of_header">
+	<a class="header_a" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+	{{ with .Site.Menus.main }}
+	<nav>
+		<ul>
+			{{ range . }}
+			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+			{{ end }}
+            
+		</ul>
+	</nav>
+    
+	{{ end }}
+    <div class="right_header_a">
+     {{ range .Site.Taxonomies.tags }}
+            <span>&nbsp;&nbsp;&nbsp;<a class="header_a" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></span>
+    {{ end }}
+        </div>
+    </div>
+</header>

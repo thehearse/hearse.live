@@ -1,0 +1,8 @@
+name = "hearse.live"
+homepage = "https://hearse.live"
+tags = ["blog", "plain", "blank", "starter", "development"]
+features = ["blog"]
+
+[author]
+  name = "Hearse"
+  homepage = "https://hearse.live"
