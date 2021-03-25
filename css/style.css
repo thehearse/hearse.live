@@ -1,7 +1,7 @@
 /*
 Theme Name: hearse.live
 Text Domain: www.hearse.live
-Version: 0.01:dev
+Version: 0.06:dev
 
 All files, unless otherwise stated, are released under the GNU General Public
 License version 3.0 (http://www.gnu.org/licenses/gpl-2.0.html)
@@ -286,7 +286,7 @@ list-style-position: inside;
 
 footer {
     padding: 1em;
-    max-width: 95%;
+    max-width: 100%;
 }
 
 
@@ -461,3 +461,4 @@ aside li {
 aside ul {
     padding: 0;
 }
+
